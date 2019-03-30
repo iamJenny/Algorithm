@@ -5,7 +5,7 @@ import java.util.*;
  * A. https://app.codility.com/demo/results/training8DZYSM-P7E/
  * Test Score. 100%
  */
-class Solution1 {
+class Solution {
     public int solution(int[] A) {
         Map<Integer, Integer> aMap = new HashMap<Integer, Integer>();
 
@@ -24,10 +24,5 @@ class Solution1 {
         }
 
         return aMapOddValue;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(1);
-        //solution();
     }
 }
